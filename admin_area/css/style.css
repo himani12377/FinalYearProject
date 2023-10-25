@@ -1,0 +1,265 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;0,900;1,300&display=swap");
+
+body {
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif !important;
+  color: #555;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background: #ff7f27;
+  border-color: #ff7f27;
+  border-radius: 30px;
+}
+.form-horizontal {
+  color: #555;
+}
+#wrapper {
+  padding-left: 0px;
+}
+
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 50px;
+  }
+
+  #wrapper {
+    padding-left: 255px;
+  }
+
+  #page-wrapper {
+    padding: 10px;
+  }
+}
+
+/*  Top Navigation Styles  */
+
+.top-nav {
+  padding: 0 15px;
+}
+
+.top-nav > li {
+  float: left;
+  display: inline-block;
+}
+
+.top-nav > li > a {
+  color: #555;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.top-nav > li > a:hover,
+.top-nav > li > a:focus {
+  color: #555;
+}
+
+.breadcrumb > .dashboard {
+  background-color: #030437;
+}
+/*  Sidebar Styles  */
+
+@media (min-width: 768px) {
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    width: 255px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #f7f7f7;
+    padding-bottom: 40px;
+    border-radius: 0;
+  }
+  .navbar-inverse {
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+  }
+  .side-nav > li > a {
+    width: 255px;
+  }
+  .side-nav > li > a:hover,
+  .side-nav > li > a:focus {
+    outline: none;
+    background-color: #e7e7e7 !important;
+    color: #555;
+  }
+}
+
+.side-nav > li > ul {
+  padding: 0;
+}
+
+.side-nav > li > ul > li > a {
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #555;
+  display: block;
+}
+
+.side-nav > li > ul > li > a:hover {
+  color: #555;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #555;
+}
+/*  Custom Color For Panel  */
+
+.huge {
+  font-size: 40px;
+  line-height: normal;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #f4d03f;
+  border-color: #f4d03f;
+}
+.panel-blue > a {
+  color: #f4d03f;
+}
+.panel-blue {
+  color: #fff;
+  background-color: #f4d03f;
+  border-color: #f4d03f;
+}
+.panel-green {
+  border-color: #ff5733;
+}
+
+.panel-green > .panel-heading {
+  color: #ffffff;
+  background-color: #ff5733;
+}
+
+.panel-green > a {
+  color: #ff5733;
+}
+
+.panel-green > a:hover {
+  color: #f2b56f;
+}
+
+.panel-orange {
+  border-color: #29d80a;
+}
+
+.panel-orange > .panel-heading {
+  color: #ffffff;
+  background-color: #29d80a;
+}
+
+.panel-orange > a {
+  color: #29d80a;
+}
+
+.panel-orange > a:hover {
+  color: #ba8539;
+}
+
+.panel-red {
+  border-color: #fd008e;
+}
+
+.panel-red > .panel-heading {
+  color: #ffffff;
+  background-color: #fd008e;
+}
+
+.panel-red > a {
+  color: #fd008e;
+}
+
+.panel-red > a:hover {
+  color: #8d4341;
+}
+
+/*  Admin Profile Styling  */
+
+.panel-body {
+  border-radius: 5px;
+}
+
+.thumb-info {
+  position: relative;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 10px 0 10px 0;
+}
+
+hr.dotted {
+  border-bottom: 1px #dddddd dotted;
+  height: 0px;
+  margin: 10px 0 10px 0;
+}
+
+.thumb-info .thumb-info-title {
+  background: rgba(36, 27, 28, 0.9);
+  bottom: 10%;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -1px;
+  padding: 9px 11px 9px;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.thumb-info .thumb-info-inner {
+  display: block;
+}
+
+.thumb-info .thumb-info-type {
+  background: #41c9fc;
+  display: inline-block;
+  border-radius: 2px;
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 8px -2px -15px -2px;
+  padding: 2px 9px;
+  text-transform: none;
+}
+
+.widget-content-expanded {
+  font-size: 15px;
+}
+
+.widget-content-expanded span {
+  font-weight: 600;
+}
+
+.widget-content-expanded i {
+  color: #0088cc;
+  margin-right: 5px;
+}
+
+.panel-primary > .panel-orders {
+  color: #fff;
+  background-color: #41c9fc;
+  border-color: #41c9fc;
+}
+.panel-primary > .panel-orders > .panel-heading {
+  color: #fff;
+  background-color: #41c9fc;
+}
+
+.table {
+  color: #555;
+}
